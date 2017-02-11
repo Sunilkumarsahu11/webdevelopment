@@ -64,6 +64,47 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
+                    <li>
+                        <!--<a href=#>Sign in</a>-->
+                        <div class="bs-example" style="padding-top:25px">
+                            <!-- Button HTML (to Trigger Modal) -->
+                            <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">Sign In</a>
+                            <!-- Modal HTML -->
+                            <div id="myModal" class="modal fade">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        </div>
+                                        <!--Form Start-->
+                                        <div class="container" style="!important">
+                                            <form class="form-signin" style="!important">
+                                                <h2 class="form-signin-heading" style="padding-left:150px; font-size: 24px; text-transform: capitalize !important;">Login to Kirana House</h2>
+                                                <label for="inputdefault" class="sr-only">Email address</label>
+                                                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" style="width:550px; !important;">
+                                                <label for="inputPassword" class="sr-only">Password</label>
+                                                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" style="width:550px; !important;">
+                                                <div class="checkbox" style="text-transform: capitalize !important;">
+                                                    <label>
+                                                        <input type="checkbox" value="remember-me" style="font-size: 24px !important;"> Remember me
+                                                    </label>
+                                                </div>
+                                                <button class="btn btn-lg btn-primary btn-block" type="submit" style="width:550px; !important;">Sign in</button>
+                                            </form>
+                                        </div>
+                                        <!--Form End-->
+                                        <div class="modal-body">
+                                            <p style="font-size: 14px; text-transform: capitalize !important;" ;>New to Kirana House ?<a href=#>Create Account</a></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -171,9 +212,9 @@
 
     <!-- Script to Activate the Carousel -->
     <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
     </script>
 
 </body>
