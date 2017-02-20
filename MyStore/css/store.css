@@ -146,3 +146,23 @@ body {
   padding: 0px;
   
 }
+
+
+/*added for intro.html*/
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(10%); /* make all photos black and white */ 
+    width: 40%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+

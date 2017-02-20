@@ -3,7 +3,7 @@
 }
 
 .sidebar-left {
-    background-color: #222d32;
+    background-color: #FFA;
     margin-top: 0;
     border: none;
     border-radius: 0
@@ -12,7 +12,7 @@
 .sidebar-menu {
     list-style: none;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .sidebar-menu a {
@@ -106,7 +106,7 @@
 
 .sidebar-menu .treeview-menu > li > a > .fa-angle-left,
 .sidebar-menu .treeview-menu > li > a > .fa-angle-down {
-    width: auto
+width: auto
 }
 
 .sidebar-menu .treeview-menu > li.active > a,
