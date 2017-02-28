@@ -149,9 +149,11 @@ body {
 
 
 /*added for intro.html*/
+
 article, aside, footer, header, hgroup, main, nav, section {
     display: block;
 }
+
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
     filter: grayscale(10%); /* make all photos black and white */ 
@@ -172,6 +174,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 
 
 
+
 footer {
     background-color: #fff;
     color: #777;
@@ -181,7 +184,6 @@ footer {
 
 footer a {
     color: #555;
-
 }
 
 footer a:hover {
@@ -189,4 +191,5 @@ footer a:hover {
     text-decoration: none;
 
 }
+
 
